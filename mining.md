@@ -48,7 +48,9 @@ coinbase-addr = your address from above
 threads = (number of threads can start with 2, but depends on your cpu)
 ```
 
-Start jtminer (command line)
+Start jtminer (command line), note: jtminer won't connect to thought wallet until blockchain is synced
+You can tell if it is synced by command line command getblockchaininfo
+headers and blocks should both be the same height from explorer https://exp.thought.live/insight/
 
 Jtminer outputs to command line or system logs you can verify it's working 
 Output should look like this
