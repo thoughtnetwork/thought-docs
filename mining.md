@@ -27,7 +27,8 @@ Continue:
 In your data directory create or modify thought.conf file (choose your own user and password)
 thought.conf:
 
-``` server=1
+``` 
+server=1
 addnode=phi.thought.live:10618
 addnode=phee.thought.live:10618
 rpcuser=youruser
@@ -40,7 +41,8 @@ Install java jre (https://java.com/en/download/manual.jsp)
 Download jtminer-0.2.1-SNAPSHOT-jar-with-dependencies.jar from jtminer-builds repository
 Create jtminer.properties file:
 
-```host = localhost
+```
+host = localhost
 port = 10617
 user = (your user from thought.conf)
 password = (your password from thought.conf
