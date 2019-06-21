@@ -19,6 +19,7 @@ Locate your data directory as below
 * Linux: /home/YourUserName/.thoughtcore
 * Mac: UserDirectory/Library/Application Support/ThoughtCore
 
+Continue:
 * Backup wallet.dat file (in your data directory see below
 * See above, backup wallet.dat file again (we are not responsible for lost coins or lost wallets)
 * Generate address (Click receive and "Request Payment", or getnewaddress on commandline)
