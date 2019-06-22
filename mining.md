@@ -54,6 +54,12 @@ Start jtminer (command line), note: jtminer won't connect to thought wallet unti
 You can tell if it is synced by command line command getblockchaininfo
 headers and blocks should both be the same height from explorer https://exp.thought.live/insight/
 
+Jtminer start code should look something like this (use your own paths)
+
+```
+/usr/bin/java -jar /home/thought/jtminer/target/jtminer-0.1-SNAPSHOT-jar-with-dependencies.jar --config /etc/thought/jtminer.properties
+```
+
 Jtminer outputs to command line or system logs you can verify it's working 
 Output should look like this
 ```
