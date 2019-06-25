@@ -6,7 +6,6 @@
 * type dumpwallet "dumpwalletfilename" (caution this puts a plaintext of your public/private keys in your data directory
 * close v16 wallet
 * run v17 wallet e.g. thought-qtv17 -datadir=.thoughtcore
-* copy dumpwalletfile to .thoughcore data directory
 * go to debug console (or thought-cli)
 * type importwallet "dumpwalletfilename"
 * encryptwallet "yourpassword" (CAUTION: If using command line thought-cli make sure your wallet passphrase is not cached in commandline history
