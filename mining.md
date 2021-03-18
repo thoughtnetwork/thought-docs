@@ -3,7 +3,7 @@
 ## Mining mainnet
 
 * Download latest thought wallet, either thoughtd (command line) or thought-qt (graphical) 
-for your operating system (Ubuntu, Mac, Windows).
+for your operating system (Ubuntu, Mac, Windows). Build from source or get builds here: https://github.com/thoughtnetwork/thought-wallet.
 
 The graphical (thought-qt) has different commands than thoughtd (command line). For command line you need to use
 thought-cli for command line commands, for graphical there are either graphical methods, 
@@ -38,7 +38,7 @@ rpcpassword=yourpassword
 Restart wallet
 
 Install java jre (https://java.com/en/download/manual.jsp)
-Download jtminer-0.2.1-SNAPSHOT-jar-with-dependencies.jar from jtminer-builds repository
+Download latest build from jtminer-builds repository: https://github.com/thoughtnetwork/jtminer-builds.
 Create jtminer.properties file:
 
 ```
