@@ -38,7 +38,9 @@ rpcpassword=yourpassword
 Restart wallet
 
 Install java jre (https://java.com/en/download/manual.jsp)
+
 Download latest build from jtminer-builds repository: https://github.com/thoughtnetwork/jtminer-builds.
+
 Create jtminer.properties file:
 
 ```
