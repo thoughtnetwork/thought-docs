@@ -15,7 +15,7 @@ or you can use the Debug console under "Tools".
 * Restart wallet
 
 Locate your data directory as below
-* Windows: C:\Users\YourUserName\Application data\ThoughtCore
+* Windows: C:\Users\YourUserName\Appdata\Roaming\ThoughtCore
 * Linux: /home/YourUserName/.thoughtcore
 * Mac: UserDirectory/Library/Application Support/ThoughtCore
 
