@@ -1,5 +1,20 @@
 # Masternode Registration from Thought Core
 This documentation describes the procedure to register an existing masternode for the DIP003 masternode list if the collateral is held in the Thought Core software full wallet. It is not possible to issue the registration transactions if DIP003 is not yet active. The commands are shown as if they were entered in the Thought Core GUI by opening the console from Tools > Debug console, but the same result can be achieved on a masternode by entering the same commands and adding the prefix ~/.thoughtcore/thought-cli to each command.
+# Generate Masternode Collateral Funding Transaction
+If you already have a non-deterministic masternode collateral funding transaction ID generated find the output transaction either in your masternode.conf file or with the following cli command on an active masternode:
+
+`masternode outputs`
+
+If you do not already have a masternode collateral funding transaction ID, create a new address and send exactly 314,000 THT to that address via gui or cli as follows:
+
+`getnewaddress`
+
+`sendtoaddress [address from above] 314000`
+
+[Note if you are sending from a mining address you may need to consolidate mining coinbase transactions into larger inputs such as sets of 100,000 THT]
+
+Record the resulting transaction ID. This is your masternode collatoral funding transaction ID
+
 # Generate a BLS key pair
 A public/private BLS key pair is required for the operator of the masternode. If you are using a hosting service, they will provide you with their public key, and you can skip this step. If you are hosting your own masternode, generate a BLS public/private keypair as follows:
 
