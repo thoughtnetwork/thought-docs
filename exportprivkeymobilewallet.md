@@ -9,5 +9,6 @@
 7. Download bip39 tool from https://github.com/thoughtnetwork/bip39/releases/tag/0.3.13 and open file locally with browser
 8. Copy 12 word mnemonic to BIP39 Mnemonic field
 9. Select THT - Thought under Coin
-10. Scroll to Derived Addresses to find your PrivKey
-11. Import PrivKey into Thought-qt/Thoughtd
+10. Put m/44'/0'/0'/0/0 into BIP32 Derivation Path
+11. Scroll to Derived Addresses to find your PrivKey
+12. Import PrivKey into Thought-qt/Thoughtd
