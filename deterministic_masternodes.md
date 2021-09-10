@@ -97,7 +97,7 @@ Open a text editor such as notepad to prepare this command. Replace each argumen
     * ipAndPort: Masternode IP address and port, in the format x.x.x.x:yyyy
     * ownerKeyAddr: The new Thought address generated above for the owner/voting address
     * operatorPubKey: The BLS public key generated above (or provided by your hosting service)
-    * votingKeyAddr: [[Important, this address needs to be the same as ownerKeyAddr above]] The new Thought address generated above, or the address of a delegate, used for proposal voting 
+    * votingKeyAddr: The new Thought address generated above, or the address of a delegate, used for proposal voting 
     * operatorReward: The percentage of the block reward allocated to the operator as payment
     * payoutAddress: A new or existing Thought address to receive the owner’s masternode rewards
     * feeSourceAddress: An (optional) address used to fund ProTx fee. payoutAddress will be used if not specified.
